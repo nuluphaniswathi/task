@@ -1,0 +1,33 @@
+GET http://localhost:3500/test
+
+###
+POST http://localhost:3500/create-user
+Content-Type: application/json
+
+{
+    "username":"manasa",
+    "password":"2343"
+}
+
+
+
+###
+POST http://localhost:3500/login 
+Content-Type: application/json
+
+{
+    "username":"swathi",
+    "password":"swathi123"
+}
+
+###
+GET http://localhost:3500/logout
+
+###
+PUT http://localhost:3500/modify
+Content-Type: application/json
+
+{
+    "username":"manasa",
+    "password":"phaniswathi123"
+}
